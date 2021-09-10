@@ -18,26 +18,25 @@ m tall.
 § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
 m tall.
 
-GOOD LUCK �  */ 
+GOOD LUCK �  */
 
-// mark 
-const massMark = 78 /*95*/;
-const heightMark = 1.69  /*1.88*/;
+// mark
+const massMark = 78 /*95*/
+const heightMark = 1.69 /*1.88*/
 
-const BMImark = massMark / (heightMark ** 2);
+const BMImark = massMark / heightMark ** 2
 
-console.log(BMImark);
+console.log(BMImark)
 
 // john
 
-const massJohn = 95 /*85*/;
-const heightJohn = 1.95 /*1.76*/;
+const massJohn = 95 /*85*/
+const heightJohn = 1.95 /*1.76*/
 
-const BMIjohn = massJohn / (heightJohn ** 2)
+const BMIjohn = massJohn / heightJohn ** 2
 
-console.log(BMIjohn);
+console.log(BMIjohn)
 
+const markHigherBMI = BMImark > BMIjohn
 
-const markHigherBMI = BMImark > BMIjohn;
-
-console.log(markHigherBMI);
+console.log(markHigherBMI)
